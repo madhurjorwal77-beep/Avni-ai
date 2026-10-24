@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Unzip project
-        run: unzip -o avni-ai.zip
+        run: unzip -o "Avni AI full project zip.zip"
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
